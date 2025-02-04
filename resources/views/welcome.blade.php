@@ -1165,7 +1165,7 @@
     <a href="/contact">Contact</a>
 </div>
 <div class="text-xl2">
-    Hello Everybodyح
+    Hello Everyone
 </div>
 </body>
 </html>
