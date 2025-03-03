@@ -19,6 +19,7 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->boolean('in_stock')->default(true);
             $table->string('sku_id')->unique();
+            $table->foreignId('category_id')->constrained();
             $table->timestamps();
         });
     }
