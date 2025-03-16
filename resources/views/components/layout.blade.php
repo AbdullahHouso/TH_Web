@@ -1165,6 +1165,7 @@
     </div>
     <div class="mx-3 flex flex-row gap-x-6">
         <x-nav-link path="/" :active="request()->is('/')">Home</x-nav-link>
+        <x-nav-link path="/categories" :active="request()->is('categories')">Categories</x-nav-link>
         <x-nav-link path="/products" :active="request()->is('products')">Products</x-nav-link>
         <x-nav-link path="/about" :active="request()->is('about')">About</x-nav-link>
         <x-nav-link path="/contact" :active="request()->is('contact')">Contact</x-nav-link>
